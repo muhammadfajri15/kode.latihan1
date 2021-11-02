@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+
+/* Bagian Header/Menu */
+
+header {
+    background-color: #fff;
+    height: 50px;
+    padding: 0 50px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+header ul {
+    float: right;
+}
+
+header li {
+    list-style: none;
+    float: left;
+    padding: 15px 15px;
+    font-size: 15px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Bagian Profile */
+
+.profile {
+    display: flex;
+    background-color: #fff;
+    margin: 30px 60px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.profile-left,
+.profile-right {
+    width: 500px;
+    margin: 20px;
+}
+
+.profile-left img {
+    width: 140px;
+    border-radius: 50%;
+
+}
+
+.profile-left img,
+.profile-left div {
+    float: left;
+}
+
+.profile-left div {
+    padding: 20px 25px;
+}
+
+.profile-left div p {
+    font-size: 15px;
+    padding-top: 5px;
+    color: #636e72;
+}
+
+.profile-left input {
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 7px 15px;
+}
+
+.profile-left .kontak {
+    background-color: #2980b9;
+    color: #fff;
+    border-radius: 3px;
+    border: solid 1px #2980b9;
+    cursor: pointer;
+}
+
+.profile-left .resume {
+    background-color: #fff;
+    color: #27ae60;
+    border-radius: 3px;
+    border: solid 1px #27ae60;
+    cursor: pointer;
+}
+
+.profile-right {
+    border-left: solid 2px #ecf0f1;
+    padding-left: 20px;
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+.profile-right th {
+    text-align: left;
+    padding: 2px 0;
+}
+
+.profile-right td {
+    text-align: left;
+    padding-left: 35px;
+}
+
+/* Bagian Form */
+
+.form {
+    margin: 30px 60px;
+    padding: 5px 0;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+form {
+    margin: 20px;
+    /* background-color: yellow; */
+    padding-right: 13px;
+}
+
+form label,
+form input {
+    display: block;
+    font-size: 15px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+form .input-text {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+.submit {
+    width: calc(100% + 14px);
+    padding: 6px;
+    border: solid 1px #27ae60;
+    color: #fff;
+    background-color: #27ae60;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
